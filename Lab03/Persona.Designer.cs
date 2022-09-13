@@ -38,8 +38,8 @@
             // 
             // btnListar
             // 
-            this.btnListar.BackColor = System.Drawing.Color.Maroon;
-            this.btnListar.FlatAppearance.BorderColor = System.Drawing.Color.Maroon;
+            this.btnListar.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.btnListar.FlatAppearance.BorderColor = System.Drawing.Color.MediumSeaGreen;
             this.btnListar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnListar.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnListar.ForeColor = System.Drawing.SystemColors.HighlightText;
@@ -71,6 +71,7 @@
             this.btnBuscar.TabIndex = 2;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = false;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // dgvListado
             // 
